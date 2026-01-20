@@ -3,8 +3,8 @@
  */
 
 import yaml from "js-yaml";
-import type { DataRepoConfig } from "../types";
-import { hasSocials } from "../utils";
+import type { DataRepoConfig } from "../types.js";
+import { hasSocials } from "../utils.js";
 
 /**
  * Generate config.yaml content

@@ -2,7 +2,7 @@
  * Generate README.md for the data repository
  */
 
-import type { DataRepoConfig } from "../types";
+import type { DataRepoConfig } from "../types.js";
 
 /**
  * Generate README content

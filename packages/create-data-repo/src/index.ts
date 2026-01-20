@@ -8,10 +8,10 @@
 import { resolve } from "path";
 import { existsSync, mkdirSync, writeFileSync, readdirSync } from "fs";
 import { execSync } from "child_process";
-import { collectConfig } from "./prompts";
-import { generateConfigYaml } from "./generators/config";
-import { generateReadme } from "./generators/readme";
-import { generateGitignore } from "./generators/gitignore";
+import { collectConfig } from "./prompts.js";
+import { generateConfigYaml } from "./generators/config.js";
+import { generateReadme } from "./generators/readme.js";
+import { generateGitignore } from "./generators/gitignore.js";
 
 /**
  * Main CLI function
